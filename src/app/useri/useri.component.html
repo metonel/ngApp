@@ -1,0 +1,10 @@
+<h1>useri:</h1>
+<ul>
+  <li *ngFor="let user of useri$">
+    <a routerLink="/detalii/{{user.id}}">{{user.name}}</a>
+    <ul>
+      <li>{{  user.email }}</li>
+      <li><a href="">{{  user.website }}</a></li>
+    </ul>
+  </li>
+</ul>
