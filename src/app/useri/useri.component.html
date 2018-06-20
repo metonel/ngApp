@@ -1,5 +1,5 @@
 <h1>useri:</h1>
-<ul>
+<ul [@listStagger]="useri$">
   <li *ngFor="let user of useri$">
     <a routerLink="/detalii/{{user.id}}">{{user.name}}</a>
     <ul>
