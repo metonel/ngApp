@@ -1,6 +1,6 @@
 <h1>postari:</h1>
 
-<ul>
+<ul [@listStagger]="postari$">
   <li *ngFor="let post of postari$">
     <a routerLink="">{{ post.title }}</a>
 
